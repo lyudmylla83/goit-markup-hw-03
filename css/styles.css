@@ -137,6 +137,7 @@ ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
 }
 
 .studio-abzac {
@@ -145,6 +146,7 @@ ol {
     line-height: 1.5;
     font-weight: 400;
     letter-spacing: 0.02em;
+
 }
 
 .our-team-header {
@@ -225,7 +227,8 @@ ol {
 .section-our-team,
 .section,
 .section-main-title,
-.section-our-team {
+.section-our-team 
+{
     padding-bottom: 120px;
     padding-top: 120px;
 }
@@ -353,7 +356,18 @@ header .logo-full {
 .header-our-portfolio {
     margin-bottom: 72px;
 }
+.second-list-title {
+display: flex;
+align-items: center;
+    gap: 24px;
+}
+.second-section-item {
+    width: calc((100% - 72px) / 4);
+}
 
+.second-section-item-header {
+    margin-bottom: 8px;
+}
 .sect-three-flex {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -361,11 +375,10 @@ header .logo-full {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-
-
 }
 
 .sect-three-flex h3 {
+    display: flex;
     margin-bottom: 8px;
     text-align: start;
 }
@@ -377,6 +390,7 @@ footer p {
 }
 
 .sect-three-list .list-margin {
+    display: flex;
     margin-bottom: 48px;
 }
 
@@ -400,6 +414,7 @@ footer .container .logo-full {
 }
 
 .our-team-list {
+
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
@@ -409,5 +424,18 @@ footer .container .logo-full {
 }
 
 .sect-three-list li {
+    display: flex;
     width: calc((100% - 48px) / 3);
+}
+
+.third-section-item-description {
+    padding: 32px 0;
+}
+
+.third-section-item-description {
+    text-align: center;
+}
+
+h3.third-section-item-header {
+    margin-bottom: 8px;
 }
